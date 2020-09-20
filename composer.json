@@ -1,0 +1,13 @@
+{
+    "name": "vendor/personaltrainer",
+    "license": "no",
+    "authors": [
+        {
+            "name": "Daniel Ruiz",
+            "email": "danirpsr1@gmail.com"
+        }
+    ],
+    "require": {
+        "statickidz/bedca-api": "^1.1"
+    }
+}
