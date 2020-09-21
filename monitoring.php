@@ -71,7 +71,7 @@
 
                                 <h3 class="profile-username text-center"><?php echo $res['name'], " ", $res['surname'] ?> <span class="d-none" id="id-customer"><?php echo $res['id_customer'] ?></span></h3>
 
-                                <p class="text-muted text-center"><?php echo $res['service'] ?>
+                                <p class="text-muted text-center">Plan: <?php echo $res['service'] ?>
                                 <?php if($today >= $res['date_start'] && $today <= $res['date_end']){ ?>
                                     <span class="badge bg-success">Activo</span>
                                 <?php } else if ($today <= $res['date_start']) { ?>
@@ -143,8 +143,8 @@
                         </div>
                         <div class="card card-dark">
                             <div class="card-header">
-                                <h3 class="card-title">Progreso</h3><br>
-                                <small>Consulta el progreso de tu cliente a lo largo del tiempo</small>
+                                <h3 class="card-title">Peso corporal (kg)</h3><br>
+                                <small>Consulta el peso corporal de tu cliente a lo largo del tiempo</small>
                             </div>
                             <div class="card-body">
                                 <div class="chart">
@@ -162,7 +162,7 @@
                             <div class="col-sm-6">
                                 <div class="card card-dark">
                                     <div class="card-header">
-                                        <h3 class="card-title">Grasa corporal</h3>
+                                        <h3 class="card-title">Grasa corporal (%)</h3>
                                         <div class="card-tools">
                                         <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                                         </button>

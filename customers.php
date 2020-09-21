@@ -125,7 +125,7 @@
                         <th>ID</th>
                         <th>Nombre</th>
                         <th>Email</th>
-                        <th>Servicio</th>
+                        <th>Plan contratado</th>
                         <th>Inicio Servicio</th>
                         <th>Fin Servicio</th>
                         <th>Estado</th>
@@ -178,7 +178,7 @@
                         <th>ID</th>
                         <th>Nombre</th>
                         <th>Email</th>
-                        <th>Servicio</th>
+                        <th>Plan contratado</th>
                         <th>Inicio Servicio</th>
                         <th>Fin Servicio</th>
                         <th>Estado</th>
